@@ -1,0 +1,13 @@
+Blackberry (Class)
+
+Attributes:
+type = ["simple", "aggregate", "multiple", "accessory"]
+amount_sugar = 1
+grow_on_trees = false
+mass = .1
+
+Methods:
+type_name = "blackberry"
+price_per_lb = mass*1.5
+sugar_accumulated = amount_sugar*consume_fruits
+consume_fruits = 10
