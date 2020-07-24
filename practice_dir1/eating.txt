@@ -1,0 +1,13 @@
+Fruit (Class)
+
+Attributes:
+type: (array) ["simple", "aggregate", "multiple", "accessory"]
+amount_sugar: (integer)
+grow_on_trees: (boolean)
+mass: (integer)
+
+Methods:
+type_name: (updates fruit name)
+price_per_lb: (calculates cost of Fruit)
+sugar_accumulated: (increases number of sugar intake)
+consume_fruits: (accounts for number of fruit eaten)
